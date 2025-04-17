@@ -8,7 +8,7 @@
     # Comment to post on an individual's first pull request
     pr-message: # optional
           
-            - name: Close Stale Issues
+           - name: Close Stale Issues
   uses: actions/stale@v9.1.0
   with:
     # Token for the repository. Can be passed in using `{{ secrets.GITHUB_TOKEN }}`.
